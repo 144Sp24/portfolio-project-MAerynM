@@ -1,0 +1,123 @@
+/* Name: Aeryn Mitchell
+Date: 02/08/24
+File Name:style.css */
+head{
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
+   
+}
+
+header{
+}
+
+img{
+    max-width: 100%;
+    max-height: 50%;
+
+    display: block;
+}
+Body{
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
+}
+
+main{
+     margin: 0em;
+    padding: 0em;
+    border: 0em;
+}
+
+div{
+     margin: 0em;
+    padding: 0em;
+    border: 0em;
+}
+/*style rules for nav*/
+nav{
+     margin: 5em 3em 0 0;
+    padding: 0em;
+    border: 0em;
+    float: center; 
+    
+    width: 100%;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type:none;
+    margin:0;
+   
+    background-color: green;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.5em; 
+    font-family: verdana, Arial, sans-serif;
+    font-weight: bold;
+    background-color: green;
+    
+}
+nav li a{
+    display:block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: green;
+}
+    
+footer {
+    margin: 0em;
+    padding: 0em 0em;
+    border: 0em;
+}
+.link{
+    color: rosybrown;
+    font-weight:bold;
+    font-style: normal;
+    display: inline-block;
+    padding-left: 10em;
+    padding-bottom: 30%;
+    
+}
+
+.content{
+    font-style: normal;
+    font-family: sans-serif;
+    padding-top: 50%;
+    padding-right: 10em;
+}
+
+h1{
+    font-size: 10em;
+    color: black;
+    margin-top: 20%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 5em;
+}
+
+.action{
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+
+div{
+    
+}
+
+div ul{
+    
+}
+
+div li{
+    font-size: 3em;
+}

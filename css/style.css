@@ -1,6 +1,14 @@
 /* Name: Aeryn Mitchell
 Date: 02/08/24
 File Name:style.css */
+body, header, nav, main, footer, img, h1, h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border: 0;
+    max-width: 100%;
+    display: block; 
+}
 head{
     margin: 0em;
     padding: 0em;
@@ -9,6 +17,11 @@ head{
 }
 
 header{
+}
+
+h1 {
+    font-family: protest riot, sans-serif;
+    max-width: 100%;
 }
 
 img{
@@ -29,12 +42,19 @@ main{
     border: 0em;
 }
 
+main img{
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 6px;
+}
+
 div{
      margin: 0em;
     padding: 0em;
     border: 0em;
 }
 /*style rules for nav*/
+
 nav{
      margin: 5em 3em 0 0;
     padding: 0em;
@@ -55,9 +75,10 @@ nav ul{
 nav li{
     display: inline-block;
     font-size: 1.5em; 
-    font-family: verdana, Arial, sans-serif;
+    font-family: protest riot, sans-serif;
     font-weight: bold;
     background-color: green;
+    max-width: 100%;
     
 }
 nav li a{
@@ -75,12 +96,6 @@ footer {
     border: 0em;
 }
 .link{
-    color: rosybrown;
-    font-weight:bold;
-    font-style: normal;
-    display: inline-block;
-    padding-left: 10em;
-    padding-bottom: 30%;
     
 }
 
@@ -109,7 +124,44 @@ h2{
     font-weight: bold;
     
 }
+/*style rules for tab-desk top*/
 
+.tab-desk {
+    display: none;
+}
+
+/*style rules for mobile elements*/
+
+.mobile {
+    display: block;
+    max-width: 100%;
+}
+
+.mobile ul {
+    text-align: center;
+    display: block;
+}
+.moble a {
+    color: black;
+    font-weight:bold;
+    font-style: normal;
+    display: inline-block;
+    padding-left: 10em;
+    padding-bottom: 30%;
+    font direction: none;
+    
+}
+
+.link {
+   color: black;
+    font-weight:bold;
+    font-style: normal;
+    display: inline-block;
+    padding-left: 10em;
+    padding-bottom: 30%;
+    text-decoration: none;
+     
+}
 div{
     
 }

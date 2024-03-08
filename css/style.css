@@ -16,9 +16,6 @@ head{
    
 }
 
-header{
-}
-
 
 img{
     max-width: 100%;
@@ -39,8 +36,6 @@ main{
 }
 
 main img{
-    max-height: 50%;
-    max-width: 50%;
     border-radius: 12px;
     padding: 6px;
     
@@ -79,6 +74,9 @@ nav li{
     max-width: 100%;
     
 }
+nav li a:hover{
+   background-color:black;
+}
 nav li a{
     display:block;
     color: #fff;
@@ -87,14 +85,13 @@ nav li a{
     text-decoration: none;
     background-color: green;
 }
-    
-footer {
-    margin: 0em;
-    padding: 0em 0em;
-    border: 0em;
-}
-.link{
-    
+/* Style rules for contact page */
+
+
+#map {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
 }
 
 .content{
@@ -102,6 +99,20 @@ footer {
     font-family: sans-serif;
     padding-top: 50%;
     padding-right: 10em;
+}
+
+#contact-info {
+    width: 100%;
+margin: auto;
+text-align: center; 
+color: black;
+font-weight:bold;
+font-style: normal;
+padding-bottom: 5%;
+clear: left;
+text-decoration: none; 
+color: black;
+    
 }
 
 h1{
@@ -128,12 +139,24 @@ h2{
     font-weight: bold;
     
 }
+.Section{
+     max-width: 25%;
+   Border-radius: 6px;
+   float: left;
+    Margin:50px;
+    text-align: center;
+    text-decoration: bold;
+    
+}
+.Section:hover{
+    background-color: gray;
+}
 /*style rules for tab-desk top*/
 
-.tab-desk {
-    display: none;
-}
 
+Main a {
+    float:center;
+}
 /*style rules for mobile elements*/
 
 .mobile {
@@ -156,28 +179,99 @@ h2{
     
 }
 
+/* style rules for gmail link*/
+
 .link {
-   color: black;
-    font-weight:bold;
-    font-style: normal;
-    display: inline-block;
-    padding-left: 10em;
-    padding-bottom: 30%;
-    text-decoration: none;
-     
-}
-div{
+    text-decoration: none; 
+    color: black;
     
 }
 
-div ul{
-    
+.link:focus {
+    color: black;
 }
+
+.link:hover {
+    color:grey;
+}
+
 
 div li{
     font-size: 3em;
 }
-
-footer a {
- text-align: Center; 
+*{
+    box-sizing: border-box;
 }
+/*style for two columns */
+.column {
+  float: left;
+  width: 50%;
+  Padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Rules for my footer */
+footer { 
+width: 100%;
+margin: auto;
+text-align: center; 
+color: black;
+font-weight:bold;
+font-style: normal;
+padding-bottom: 5%;
+Background-color: green;
+clear: left;
+}
+
+/* Media Query for Large Desktop Viewport */
+@media screen and (min-width: 1921px) {
+     body {
+        background-image: linear-gradient(grey, white)
+    }
+}
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 768px) {
+     body { 
+         background-color:whitesmoke;
+    }
+    #map-link {
+        display: none;
+    }
+}
+
+
+/* Media Query for mobile Viewport */
+@media screen and (max-width: 480px) {
+     body {
+         background-color:antiquewhite; 
+    }
+    
+    .tab-desk{
+        display: none;
+    }
+    
+ .column {
+     clear:left;
+         
+}
+    .Section {
+        clear:left;
+    }
+    #map{
+        display:none ;
+    }
+    #map-link {
+        text-align: center;
+    }
+}
+    
+
+
+
+
+
+
